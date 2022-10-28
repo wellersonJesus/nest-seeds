@@ -13,7 +13,7 @@ async function bootstrap() {
 
   await app.listen(port, () =>
     console.log(`
-     🚀🚀🚀 API Data-Process-Consumer Listening at :${port}`),
+     🚀🚀🚀 API Nest-Seeds Listening at :${port}`),
   );
 }
 bootstrap();

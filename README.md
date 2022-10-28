@@ -35,11 +35,18 @@ $ npm install
 ## Migrate
 
 ```bash
- #createdMigrate
- npx prisma migrate dev --name init
+#createdMigrate
+$ npx prisma migrate dev --name init
 
 #generateMigrate
 $ npx prisma migrate
+```
+
+## Seeds
+
+```bash
+#createdSeedsDataBase
+$ npx prisma db seed
 ```
 
 ## Created Module
